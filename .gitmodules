@@ -1,0 +1,3 @@
+[submodule "taskinate-api"]
+	path = taskinate-api
+	url = https://github.com/ziqing26/taskinate-api.git
