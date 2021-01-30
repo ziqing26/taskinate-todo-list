@@ -32,7 +32,8 @@ It does not support Chrome yet due to potential issues with cookies setting (onl
 2. Create, retrieve, update and delete tasks and tags.
 3. Check or uncheck tasks depending on its status.
 4. Tag tasks in Overview page.
-5. Search tasks by name in the overview table.
+5. Filter tasks according to tags.
+6. Search tasks by name in the overview table.
 
 ## Main sections
 
@@ -90,6 +91,8 @@ bundle exec rails s
 The api server is now on [http://localhost:5000](http://localhost:5000)
 
 ## Setup Taskinate frontend
+
+Change all axios.defaults.baseURL to [http://localhost:5000](http://localhost:5000) before proceed.
 
 In the project directory `taksinate-app`, you can run:
 
